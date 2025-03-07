@@ -17,3 +17,26 @@ To run this project, you need the following:
 
 - **C++ compiler** (Visual Studio, GCC, etc.)
 - **Raylib library** (for graphics and game development)
+- ### 3. Build and Run
+- Open the project in Visual Studio.
+- Make sure Raylib is linked correctly in your project settings.
+- Build and run the project.
+
+### 4. Controls
+- **Arrow keys**: Move the snake.
+  - **Up**: Move up.
+  - **Down**: Move down.
+  - **Left**: Move left.
+  - **Right**: Move right.
+
+### How It Works
+- The snake moves continuously in the direction specified by the player using the arrow keys.
+- When the snake collides with the food, it grows in length, and the score increases.
+- If the snake hits the wall or its own body, the game resets.
+
+
+### Acknowledgements
+- **Raylib**: A simple and easy-to-use library for game development in C.
+- **Visual Studio**: Used for building and running the project on Windows.
+
+
